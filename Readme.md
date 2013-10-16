@@ -1,7 +1,7 @@
 
 # array-compact
 
-  Remove all falsy values of an array
+  Return a copy of an array and remove all falsy values
 
 ## Installation
 
@@ -9,7 +9,14 @@
 
     $ component install leafs/array-compact
 
-## API
+
+## Usage
+
+```js
+var compasct = require('compact');
+last(['olivier', false, 'amy']);
+// ['olivier', 'amy']
+```
 
 
 
