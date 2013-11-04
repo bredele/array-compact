@@ -10,8 +10,8 @@
 
 module.exports = function(arr) {
 	var cp = [];
-	for(var i = arr.length; i--;) {
-		if(arr[i]) cp.unshift(arr[i]);
+	for(var i = 0, l = arr.length; i < l; i++){
+		if(arr[i]) cp.push(arr[i]);
 	}
 	return cp;
 };

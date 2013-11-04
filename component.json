@@ -1,5 +1,5 @@
 {
-  "name": "array-compact",
+  "name": "compact",
   "repo": "leafs/array-compact",
   "description": "Remove all falsy values of an array",
   "version": "0.0.1",
