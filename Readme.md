@@ -1,4 +1,3 @@
-
 # array-compact
 
   Return a copy of an array and remove all falsy values
@@ -14,7 +13,7 @@
 
 ```js
 var compasct = require('compact');
-last(['olivier', false, 'amy']);
+compact(['olivier', false, 'amy']);
 // ['olivier', 'amy']
 ```
 
